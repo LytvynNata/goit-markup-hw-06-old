@@ -47,9 +47,61 @@
         <div class="container">
             <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ<br/>ДЛЯ ВАШЕГО БИЗНЕСА</h1>
             <button data-modal-open class="button primary" type="button">Заказать услугу</button>
-      
             <div class="backdrop is-hidden" data-modal>
         <div class="modal">
+            <b class="text-title">Оставьте свои данные, мы вам перезвоним</b>
+            <form class="form js-speaker-form">
+                <div class="form-field">
+                    <label for="name">Имя</label>
+                    <input 
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder=" "
+                    autofocus
+                    />
+                </div>
+
+                <div class="form-field">
+                    <label for="tel">Телефон</label>
+                    <input 
+                    type="tel" 
+                    name="tel" id="tel" 
+                    placeholder=" " 
+                    />
+                </div>
+
+                <div class="form-field">
+                    <label for="mail">Почта</label>
+                    <input 
+                    type="email" 
+                    name="mail" 
+                    id="mail" 
+                    placeholder=" " 
+                    />
+                </div>
+
+
+                <div class="form-field">
+                    <label for="comment">Комментарий</label>
+                    <textarea
+                    class="comment" 
+                    name="comment" 
+                    id="comment" 
+                    rows="8"
+                    placeholder="" 
+                    >
+                    </textarea>
+                </div>
+
+
+
+
+
+
+
+            </form>
+
             <button type="button" class="close" data-modal-close>
                 <svg class="close-icon" width="11px" height="11px">
                     <use href="./images/symbol-defs.svg#cross"> </use>
