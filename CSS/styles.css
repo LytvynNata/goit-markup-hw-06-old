@@ -228,12 +228,23 @@ body {
 
   padding-bottom: 4px;
 }
+
 .form-field input {
   /* outline: 2px solid orange; */
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   height: 40px;
   padding-left: 40px;
+  cursor: pointer;
+}
+.form-field input:focus,
+.form-field input:hover {
+  outline: none;
+  border: 1px solid var(--accent-color);
+}
+.form-field input:focus ~ .icon,
+.form-field input:hover ~ .icon {
+  fill: var(--accent-color);
 }
 
 textarea {
@@ -248,6 +259,12 @@ textarea {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   /* color: rgba(117, 117, 117, 0.5); */
+}
+.form-field textarea:focus,
+.form-field textarea:hover {
+  outline: none;
+  border: 1px solid var(--accent-color);
+  cursor: pointer;
 }
 
 .modal .text-title {
@@ -267,6 +284,7 @@ textarea {
   width: 18px;
   height: 18px;
 }
+
 .close {
   position: absolute;
   top: 0;
