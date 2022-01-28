@@ -192,6 +192,8 @@ body {
   left: 50%;
   visibility: visible;
 
+  padding: 40px;
+
   min-width: 528px;
   min-height: 581px;
   background-color: var(--primary-white-color);
@@ -203,6 +205,40 @@ body {
     opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.form {
+  /* outline: 2px solid red; */
+  margin-top: 30px;
+}
+
+.form-field {
+  /* outline: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 28px;
+}
+
+.form-field label {
+  font-size: 12px;
+  line-height: 1.16;
+
+  padding-bottom: 4px;
+}
+.form-field input {
+  /* outline: 2px solid orange; */
+}
+
+textarea {
+  resize: none;
+}
+
+.modal .text-title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.15;
+
+  color: #212121;
+}
 .close {
   position: absolute;
   top: 0;
