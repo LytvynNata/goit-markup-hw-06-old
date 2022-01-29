@@ -937,7 +937,7 @@ textarea {
   color: var(--primary-white-color);
   margin-bottom: 20px;
 }
-.js-speaker-form input {
+.js-speaker-form .input {
   width: 358px;
   height: 50px;
   padding-left: 16px;
@@ -949,8 +949,8 @@ textarea {
   border-radius: 4px;
   color: rgba(255, 255, 255, 0.6);
 }
-.js-speaker-form input:hover,
-.js-speaker-form input:focus {
+.js-speaker-form .input:hover,
+.js-speaker-form .input:focus {
   outline: none;
   border: 1px solid var(--accent-color);
 }
