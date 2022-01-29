@@ -320,6 +320,29 @@ textarea {
   background-origin: border-box;
 }
 
+.modal .contract {
+  color: var(--accent-color);
+}
+
+.modal .btn-submit {
+  width: 200px;
+  padding: 10px 0;
+  margin-top: 30px;
+  margin-bottom: 40px;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.7;
+  letter-spacing: 0.06em;
+
+  cursor: pointer;
+
+  color: var(--primary-white-color);
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
 .close {
   position: absolute;
   top: 0;
