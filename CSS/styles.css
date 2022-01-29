@@ -234,7 +234,6 @@ body {
   border-radius: 4px;
   height: 40px;
   padding-left: 40px;
-  cursor: pointer;
 
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -243,6 +242,10 @@ body {
   outline: none;
   border: 1px solid var(--accent-color);
 }
+.form-field input:hover {
+  cursor: pointer;
+}
+
 .form-field input:focus ~ .icon,
 .form-field input:hover ~ .icon {
   fill: var(--accent-color);
@@ -287,6 +290,34 @@ textarea {
   width: 18px;
   height: 18px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal .checkbox {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.modal .checkbox-icon {
+  display: inline-block;
+  margin-right: 8px;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #212121;
+  border-radius: 2px;
+}
+
+.modal .checkbox:checked + .checkbox-icon {
+  background-color: var(--accent-color);
+  background-image: url(../images/full-check.svg);
+  border-color: var(--accent-color);
+  background-size: contain;
+  background-origin: border-box;
 }
 
 .close {
