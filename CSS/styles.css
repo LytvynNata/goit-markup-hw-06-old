@@ -207,14 +207,15 @@ body {
 
 .form {
   /* outline: 2px solid red; */
-  margin-top: 30px;
+  margin-top: 12px;
 }
+
 .form-field {
   /* outline: 2px solid green; */
   display: flex;
   flex-direction: column;
   text-align: left;
-  margin-bottom: 28px;
+  margin-bottom: 10px;
   position: relative;
 }
 
@@ -265,6 +266,7 @@ textarea {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   /* color: rgba(117, 117, 117, 0.5); */
+  margin-bottom: 20px;
 }
 .form-field textarea:focus,
 .form-field textarea:hover {
@@ -290,8 +292,13 @@ textarea {
   height: 18px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.text-form-agreement {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
 .modal .agreement {
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
 
@@ -299,6 +306,7 @@ textarea {
   font-size: 14px;
   line-height: 1.8;
   letter-spacing: 0.03em;
+  margin-top: 0;
 }
 
 .modal .checkbox {
@@ -337,8 +345,6 @@ textarea {
   width: 200px;
   height: 50px;
   padding: 10px 0;
-  margin-top: 30px;
-  margin-bottom: 40px;
 
   font-weight: bold;
   font-size: 16px;
